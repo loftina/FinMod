@@ -1,0 +1,17 @@
+Package: FinMod
+Type: Package
+Title: Financial Models for Variance and Volatility
+Version: 0.1.0
+Authors@R: c(person("Semere", "Gebresilasie", email="habtemicaels@wit.edu", role = "aut"),
+	     person("Avery", "Loftin", email="loftina@wit.edu", role="cre"))
+Maintainer: Avery Loftin <loftina@wit.edu>
+Description:    Provides functions to facilitate the use of the Hull-White, Heston, and Barndorff-Nielsen and Shephard models to model the variance or volatility of financial assets.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Depends:
+    quantmod,
+    minpack.lm,
+    roxygen2,
+    devtools
